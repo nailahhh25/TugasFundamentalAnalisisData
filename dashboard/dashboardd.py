@@ -141,10 +141,6 @@ with st.sidebar:
         default=[]
     )
 
-    st.divider()
-    st.markdown("**Dibuat oleh:** [Nama Anda]")
-    st.markdown("**Dicoding ID:** [Username]")
-
 # ── Filter Data ───────────────────────────────────────────────────────────────
 filtered_df = main_df[
     (main_df["order_month"] >= pd.Timestamp(start_date)) &
